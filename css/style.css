@@ -44,7 +44,6 @@ p {
 .navbar-second {
   width: 100%;
   height: 72px;
-  background-color: yellow;
 }
 
 .navbar-third{
@@ -95,6 +94,20 @@ p {
 .converse {
   font-size: 12px;
 }
+
+
+.carousel-banner {
+  height: 58px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* MAIN BODY OF PAGE - VERTICAL CAROUSEL */
+
+.main {
+  margin: 0 28px;
+}
+
 
 
 
