@@ -46,6 +46,15 @@ p {
   background-color: yellow;
 }
 
+.border-nav-icon {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  padding: 8px 28px 8px 28px;
+  display: block;
+  text-decoration: none;
+}
+
 .main {
   margin: 0 48px;
 }
