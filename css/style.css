@@ -57,37 +57,6 @@ p {
   height: 100%;
 }
 
-.icon-left {
-  float: left;
-  height: 40px;
-  border: thin solid #e5e5e5;
-}
-
-
-.jordan {
-  font-size: 20px;
-}
-.jordan:hover {
-  color: black;
-}
-
-
-.hurley {
-  font-size: 14px;
-}
-.hurley:hover {
-  color: black;
-}
-
-
-.converse {
-  font-size: 12px;
-}
-.converse:hover {
-  color: black;
-}
-
-
 
 .border-nav-icon {
   color: #757575;
@@ -98,10 +67,37 @@ p {
   display: block;
   text-decoration: none;
 }
-
-.main {
-  margin: 0 48px;
+.border-nav-icon:hover {
+  color: black;
 }
+
+
+
+.icon-left {
+  float: left;
+  height: 40px;
+  border: thin solid #e5e5e5;
+}
+
+
+.jordan {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+
+.hurley {
+  font-size: 14px;
+}
+
+
+.converse {
+  font-size: 12px;
+}
+
+
+
+/* FIRST SCREEN SIZE CHANGE 1008px */
 
 @media screen and (max-width: 1008px) {
   .navbar-third {
