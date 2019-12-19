@@ -46,9 +46,32 @@ p {
   background-color: yellow;
 }
 
-.border-nav-icon {
+.icon-left {
+  float: left;
+  border: thin solid grey;
+}
+
+.jordan {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.hurley {
+  font-size: 14px;
+  line-height: 1.71428;
+}
+
+.converse {
   font-size: 12px;
-  line-height: 12px;
+  line-height: 2;
+}
+
+
+
+.border-nav-icon {
+  color: #757575;
+  font-size: 12px;
+  line-height: 2;
   font-weight: 400;
   padding: 8px 28px 8px 28px;
   display: block;
