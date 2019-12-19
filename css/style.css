@@ -46,6 +46,16 @@ p {
   background-color: yellow;
 }
 
+.navbar-third{
+  width: 100%;
+  height: 0px;
+  background-color: green;
+}
+
+.test {
+  height: 100%;
+}
+
 .icon-left {
   float: left;
   border: thin solid grey;
@@ -55,20 +65,24 @@ p {
   font-size: 20px;
   line-height: 1.2;
 }
-
 .jordan:hover {
   color: black;
-  font-size: 22px;
 }
 
 .hurley {
   font-size: 14px;
   line-height: 1.71428;
 }
+.hurley:hover {
+  color: black;
+}
 
 .converse {
   font-size: 12px;
   line-height: 2;
+}
+.converse:hover {
+  color: black;
 }
 
 
@@ -85,4 +99,14 @@ p {
 
 .main {
   margin: 0 48px;
+}
+
+@media screen and (max-width: 1008px) {
+  .navbar-third {
+    height: 112px;
+  }
+  .navbar-first, .navbar-second {
+    height: 0px;
+  }
+
 }
