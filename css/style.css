@@ -109,10 +109,14 @@ p {
   float: right;
 }
 
+
 .country {
-  padding-left: 2px;
+  padding-top: 11px;
 }
 
+.login:hover {
+  border-bottom: 1px solid black;
+}
 
 .horizontal-carousel-banner {
   height: 58px;
@@ -142,6 +146,20 @@ p {
 
 .shipping {
   color: inherit;
+}
+
+
+/* SECOND NAV BAR */
+
+.swooshlogo {
+  display: block;
+  
+}
+
+
+
+.swoosh {
+  font-size: 30px;
 }
 
 /* MAIN BODY OF PAGE - VERTICAL CAROUSEL */
