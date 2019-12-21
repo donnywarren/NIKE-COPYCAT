@@ -129,20 +129,16 @@ p {
   align-items: center;
 }
 
-.swooshlogo {
-  display: block;
+.swoosh-link {
+  text-decoration: none;
 }
-
-
 
 .icon.swoosh {
   color: black;
-
-}
-
-.swoosh {
   font-size: 30px;
+
 }
+
 
 
 
