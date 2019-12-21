@@ -152,35 +152,8 @@ p {
   color: #111;
 }
 .categorybtn:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
-
-/* .newrelease {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-} */
-
-/* .men {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-.women {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-.kids {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-.customize {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-} */
 
 .swoosh-link {
   text-decoration: none;
@@ -188,10 +161,56 @@ p {
 
 .icon.swoosh {
   color: black;
-  font-size: 30px;
-  padding-left: 10px;
+  font-size: 32px;
+  padding-left: 14px;
   padding-right: 10px;
 }
+
+
+
+
+
+
+.navbar-second-right-box {
+  border: 1px solid #d8d7d7;
+  border-radius: 2px;
+  margin-right: 20px;
+
+}
+
+.searchbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 14px 8px 10px;
+  border: 1px solid black;
+}
+.search {
+  font-size: 22px;
+}
+
+
+.searchbox,input {
+  font-size: 14px;
+  letter-spacing: .9px;
+  margin-left: 5px;
+  border: none;
+}
+
+.searchbox,input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #afadad;
+}
+
+
+
+
+
+
+
 
 
 
