@@ -145,11 +145,21 @@ p {
   flex-grow: 1;
 }
 
+.categorybtn {
+  text-decoration: none;
+  color: #111;
+}
+
 .newrelease {
   letter-spacing: -.5px;
   margin-left: 18px;
   margin-right: 18px;
 }
+
+.test:hover {
+  border-bottom: 1px solid black;
+}
+
 .men {
   letter-spacing: -.5px;
   margin-left: 18px;
