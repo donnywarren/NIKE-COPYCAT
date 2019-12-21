@@ -133,6 +133,44 @@ p {
   align-items: center;
 }
 
+.navbar-second-left-box {
+  flex-grow: 1;
+}
+
+.navbar-second-middle-box {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.newrelease {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.men {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.women {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.kids {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.customize {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
 .swoosh-link {
   text-decoration: none;
 }
@@ -140,6 +178,8 @@ p {
 .icon.swoosh {
   color: black;
   font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
