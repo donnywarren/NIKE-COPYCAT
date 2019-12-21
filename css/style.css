@@ -30,10 +30,10 @@ h2 {
   font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-weight: bold;
 }
-
+/*
 p {
   font-size: 50px;
-}
+} */
 
 .navbar-first {
   width: 100%;
@@ -113,6 +113,10 @@ p {
 
 .country {
   padding-top: 11px;
+}
+
+.help:hover {
+  border-bottom: 1px solid black;
 }
 
 .login:hover {
