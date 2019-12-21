@@ -146,21 +146,22 @@ p {
 }
 
 .categorybtn {
+  padding: 29px 18px;
+  letter-spacing: -1px;
   text-decoration: none;
   color: #111;
 }
-
-.newrelease {
-  letter-spacing: -.5px;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-
-.test:hover {
+.categorybtn:hover {
   border-bottom: 1px solid black;
 }
 
-.men {
+/* .newrelease {
+  letter-spacing: -.5px;
+  margin-left: 18px;
+  margin-right: 18px;
+} */
+
+/* .men {
   letter-spacing: -.5px;
   margin-left: 18px;
   margin-right: 18px;
@@ -179,7 +180,7 @@ p {
   letter-spacing: -.5px;
   margin-left: 18px;
   margin-right: 18px;
-}
+} */
 
 .swoosh-link {
   text-decoration: none;
