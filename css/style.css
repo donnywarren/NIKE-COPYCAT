@@ -254,10 +254,53 @@ div.navbar-second-right-box {
   margin: 0 28px;
 }
 
-.flag {
-  width: 10%;
-  height: auto;
+.hero-image-box {
+  position: relative;
+
 }
+
+.hero {
+  width: 100%;
+}
+.hero-text-card {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+span.lebron {
+  font-family: Nike;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: white;
+  font-size: 68px;
+  line-height: 62px;
+}
+p.lebron-description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  margin-top: 25px;
+}
+
+.button-shop {
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.shop {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+
+
 
 
 /* LOGIN PAGE STYLING */
