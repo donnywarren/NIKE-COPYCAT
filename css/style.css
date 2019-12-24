@@ -329,7 +329,7 @@ div.navbar-second-right-box {
 
 .hero-text-card {
   position: absolute;
-  bottom: 7%;
+  top: 7%;
   left: 40px;
   display: flex;
   flex-direction: column;
@@ -362,7 +362,7 @@ p.lebron-description {
 }
 
 .button-shop {
-  padding: 15px 30px;
+  padding: 12px 30px;
   background-color: white;
   border-radius: 30px;
   margin-top: 50px;
