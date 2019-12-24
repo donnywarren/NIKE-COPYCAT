@@ -376,6 +376,70 @@ p.lebron-description {
 
 /* FEATURED BOX */
 
+.featured-box {
+  position: relative;
+  margin-top: 84px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.featured-big {
+  width: 100%;
+}
+
+.featured-small{
+  display: none;
+}
+
+.featured-text-card {
+  position: absolute;
+  bottom: 7%;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h2.lebron-big {
+  font-family: Nike;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: white;
+  font-size: 68px;
+  line-height: 62px;
+}
+h2.lebron-small {
+  font-family: Nike;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: transparent;
+  font-size: 68px;
+  line-height: 0px;
+}
+
+p.lebron-description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  margin-top: 25px;
+}
+
+.button-shop {
+  padding: 15px 30px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.shop {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+
+}
 
 
 
