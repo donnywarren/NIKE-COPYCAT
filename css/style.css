@@ -204,10 +204,8 @@ div.navbar-second-right-box {
   width: 100%;
   height: 0px;
   background-color: #f9f9ba;
+  display: none;
 }
-
-
-
 
 
 
@@ -330,9 +328,14 @@ p.lebron-description {
 /* TABLET SCREEN SIZE 1008px */
 
 @media only screen and (max-width: 1008px) {
+
   .navbar-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 46px;
   }
+
   .navbar-first, .navbar-second {
     height: 0px;
   }
@@ -384,7 +387,7 @@ div.navbar-first{
   }
 
   .hero-small{
-    display: inline;
+    display: initial;
     width: 100%;
   }
 
