@@ -41,12 +41,18 @@ p {
   align-items: center;
   background-color: black;
   height: 54px;
+  font-size: 12px;
 }
 
-.black-ad-banner,span {
+.black-ad-banner {
   color: white;
-}span,a.shop {
+}
+
+a.shop {
   color: white;
+  font-size: 10px;
+  padding-left: 20px;
+  text-decoration: underline;
 }
 
 .navbar-first {
