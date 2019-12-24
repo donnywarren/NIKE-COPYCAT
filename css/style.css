@@ -384,6 +384,7 @@ p.lebron-description {
 h3 {
   font-size: 24px;
   font-weight: 500;
+  padding-bottom: 24px;
 }
 
 .featured-big {
@@ -403,7 +404,7 @@ h3 {
   align-items: flex-start;
 }
 
-h2.lebron-big {
+h2.featured-big {
   font-family: Nike;
   font-weight: bold;
   letter-spacing: -1px;
@@ -411,7 +412,7 @@ h2.lebron-big {
   font-size: 68px;
   line-height: 62px;
 }
-h2.lebron-small {
+h2.featured-small {
   font-family: Nike;
   font-weight: bold;
   letter-spacing: -1px;
@@ -420,7 +421,7 @@ h2.lebron-small {
   line-height: 0px;
 }
 
-p.lebron-description {
+p.featured-description {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
