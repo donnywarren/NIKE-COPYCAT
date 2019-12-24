@@ -203,7 +203,6 @@ div.navbar-second-right-box {
 .navbar-third{
   width: 100%;
   height: 0px;
-  background-color: #f9f9ba;
   display: none;
 }
 
@@ -331,9 +330,34 @@ p.lebron-description {
 
   .navbar-third {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     height: 46px;
+  }
+
+  .navbar-third-right-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span.search {
+    font-size: 26px;
+    color: black;
+  }
+
+  i.fa-shopping-cart {
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+  }
+
+  i.fa-bars {
+    font-size: 26px;
+    color: #757575;
+    padding-right: 28px;
   }
 
   .navbar-first, .navbar-second {
@@ -368,7 +392,7 @@ div.navbar-first{
   }
 
   .button-shop {
-    margin-top: 35px;
+    margin-top: 30px;
   }
 }
 
