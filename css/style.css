@@ -51,11 +51,20 @@ p {
   color: white;
 }
 
-a.shop {
+.shop-white {
   color: white;
   font-size: 10px;
   padding-left: 20px;
   text-decoration: underline;
+}
+
+i.fa-chevron-left {
+  font-size: 16px;
+  padding-left: 150px;
+}
+i.fa-chevron-right {
+  font-size: 16px;
+  padding-right: 150px;
 }
 
 
