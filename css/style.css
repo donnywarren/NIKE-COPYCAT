@@ -476,4 +476,11 @@ div.navbar-first{
   a.shop {
     font-size: 16px;
   }
+
+  i.fa-chevron-left {
+    padding-left: 50px;
+  }
+  i.fa-chevron-right {
+    padding-right: 50px;
+  }
 }
