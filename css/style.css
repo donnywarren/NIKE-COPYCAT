@@ -35,6 +35,20 @@ p {
   font-size: 50px;
 } */
 
+.black-ad-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 54px;
+}
+
+.black-ad-banner,span {
+  color: white;
+}span,a.shop {
+  color: white;
+}
+
 .navbar-first {
   width: 100%;
   height: 41px;
