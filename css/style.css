@@ -35,6 +35,9 @@ p {
   font-size: 50px;
 } */
 
+
+/* BLACK AD BANNER */
+
 .black-ad-banner {
   display: flex;
   justify-content: space-between;
@@ -54,6 +57,9 @@ a.shop {
   padding-left: 20px;
   text-decoration: underline;
 }
+
+
+/* FIRST NAV BAR */
 
 .navbar-first {
   width: 100%;
