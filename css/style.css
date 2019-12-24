@@ -43,11 +43,10 @@ p {
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  color: white;
   height: 54px;
   font-size: 12px;
 }
-
-
 
 .black-ad-banner {
     -moz-animation: cssAnimation 0s ease-in 10s forwards;
@@ -59,6 +58,7 @@ p {
     animation: cssAnimation 0s ease-in 10s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+    animation-duration: 1s;
 }
 @keyframes cssAnimation {
     to {
@@ -75,18 +75,6 @@ p {
     }
 }
 
-
-
-
-
-
-
-
-
-
-.black-ad-banner {
-  color: white;
-}
 
 .shop-white {
   color: white;
