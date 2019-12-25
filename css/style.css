@@ -526,19 +526,13 @@ div.navbar-first{
 
 
   h2.featured-big {
-    font-family: Nike;
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    color: white;
     font-size: 36px;
     line-height: 33px;
   }
 
   p.featured-description {
     font-size: 12px;
-    font-weight: 400;
     line-height: 14px;
-    color: white;
     margin-top: 8px;
   }
 
@@ -601,8 +595,16 @@ div.navbar-first{
     padding-right: 50px;
   }
 
+  .featured-big {
+    display: none;
+  }
 
-  h2.featured-big {
+  .featured-small{
+    display: initial;
+    width: 100%;
+  }
+
+  /* h2.featured-big {
     font-family: Nike;
     font-weight: bold;
     letter-spacing: -0.5px;
@@ -624,7 +626,7 @@ div.navbar-first{
     font-weight: 400;
     line-height: 16px;
     color: white;
-    margin-top: 12px;
-  }
+    margin-top: 35px;
+  } */
 
 }
