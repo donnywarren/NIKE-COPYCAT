@@ -604,21 +604,10 @@ div.navbar-first{
     width: 100%;
   }
 
-  /* h2.featured-big {
-    font-family: Nike;
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    color: white;
-    font-size: 40px;
-    line-height: 37px;
-  }
   h2.featured-small {
-    font-family: Nike;
-    font-weight: bold;
-    letter-spacing: -0.5px;
-    color: transparent;
+    color: white;
     font-size: 36px;
-    line-height: 0px;
+    line-height: 33px;
   }
 
   p.featured-description {
@@ -627,6 +616,6 @@ div.navbar-first{
     line-height: 16px;
     color: white;
     margin-top: 35px;
-  } */
+  }
 
 }
