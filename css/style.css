@@ -574,14 +574,14 @@ div.navbar-first{
   }
 
   p.lebron-description {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 20px;
     margin-top: 18px;
   }
 
   .button-shop {
     padding: 13px 28px;
-    margin-top: 24px;
+    margin-top: 30px;
   }
 
   a.shop {
@@ -619,7 +619,7 @@ div.navbar-first{
   }
 
   .featured-text-card .button-shop {
-    margin-top: 24px;
+    margin-top: 30px;
   }
 
 }
