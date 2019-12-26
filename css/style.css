@@ -114,14 +114,11 @@ i.fa-chevron-right {
   color: black;
 }
 
-
-
 .icon-left {
   float: left;
   height: 40px;
   border-right: thin solid #e5e5e5;
 }
-
 
 .jordan {
   font-size: 20px;
@@ -130,7 +127,6 @@ i.fa-chevron-right {
 .jordan:hover {
   color: red;
 }
-
 
 .hurley {
   font-size: 14px;
@@ -141,7 +137,6 @@ i.fa-chevron-right {
 .converse {
   font-size: 12px;
 }
-
 
 .noborder-nav-icon {
   display: block;
