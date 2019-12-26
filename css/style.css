@@ -320,6 +320,7 @@ div.navbar-second-right-box {
   display: none;
 }
 
+
 .hero-text-card {
   position: absolute;
   top: 7%;
@@ -327,6 +328,9 @@ div.navbar-second-right-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+a.decoration {
+  text-decoration: none;
 }
 
 h1.lebron-big {
