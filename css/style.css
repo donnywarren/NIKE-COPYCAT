@@ -367,6 +367,10 @@ p.lebron-description {
   border-radius: 30px;
   margin-top: 50px;
 }
+.button-shop:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 .shop {
   color: black;
   font-size: 18px;
