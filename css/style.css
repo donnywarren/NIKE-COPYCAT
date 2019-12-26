@@ -447,16 +447,30 @@ p.featured-description {
 /* THIS SEASON BOX */
 
 .two-up-section-box {
-  position: relative;
   margin-top: 84px;
 }
+.test2 {
+  display: flex;
+}
+.test {
+  position: relative;
+}
 
-.featured-big {
+.season-big {
   width: 100%;
 }
 
-.featured-small{
+.season-small{
   display: none;
+}
+
+.two-up-left-box {
+  width: 100%;
+  margin-right: 4px;
+}
+.two-up-right-box {
+  width: 100%;
+  margin-left: 4px;
 }
 
 .two-up-text-card {
@@ -468,25 +482,8 @@ p.featured-description {
   align-items: flex-start;
 }
 
-h2.featured-big {
-  font-family: Nike;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  color: white;
-  font-size: 40px;
-  line-height: 37px;
-}
-h2.featured-small {
-  font-family: Nike;
-  font-weight: bold;
-  letter-spacing: -0.5px;
-  color: transparent;
-  font-size: 36px;
-  line-height: 0px;
-}
-
-p.featured-description {
-  font-size: 14px;
+p.season-description {
+  font-size: 18px;
   font-weight: 400;
   line-height: 16px;
   color: white;
