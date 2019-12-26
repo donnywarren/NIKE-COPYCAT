@@ -546,9 +546,9 @@ div.navbar-first{
 
 @media only screen and (max-width: 640px) {
 
-
   .hero-text-card {
-    bottom: 5%;
+    bottom: 6%;
+    top: auto;
     left: 35px;
   }
 
@@ -606,16 +606,20 @@ div.navbar-first{
 
   h2.featured-small {
     color: white;
-    font-size: 36px;
-    line-height: 33px;
+    font-size: 60px;
+    line-height: 54px;
   }
 
   p.featured-description {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 16px;
     color: white;
-    margin-top: 35px;
+    margin-top: 14px;
+  }
+
+  .featured-text-card .button-shop {
+    margin-top: 24px;
   }
 
 }
