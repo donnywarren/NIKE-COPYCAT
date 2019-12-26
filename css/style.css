@@ -392,7 +392,7 @@ h3 {
   display: none;
 }
 
-.featured-text-card {
+.single-text-card {
   position: absolute;
   bottom: 7%;
   left: 40px;
@@ -441,15 +441,9 @@ p.featured-description {
 
 /* THIS SEASON BOX */
 
-.section-box {
+.two-up-section-box {
   position: relative;
   margin-top: 84px;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 500;
-  padding-bottom: 24px;
 }
 
 .featured-big {
@@ -460,7 +454,7 @@ h3 {
   display: none;
 }
 
-.featured-text-card {
+.two-up-text-card {
   position: absolute;
   bottom: 7%;
   left: 40px;
@@ -601,7 +595,7 @@ div.navbar-first{
     margin-top: 8px;
   }
 
-  .featured-text-card .button-shop {
+  .single-text-card .button-shop {
     margin-top: 20px;
   }
 
@@ -683,7 +677,10 @@ div.navbar-first{
     margin-top: 14px;
   }
 
-  .featured-text-card .button-shop {
+  .single-text-card .button-shop {
+    margin-top: 30px;
+  }
+  .two-up-text-card .button-shop {
     margin-top: 30px;
   }
 
