@@ -453,11 +453,11 @@ p.single-text-description {
 
 .two-up-left-box {
   width: 100%;
-  margin-right: 12px;
+  margin-right: 14px;
 }
 .two-up-right-box {
   width: 100%;
-  margin-left: 12px;
+  margin-left: 14px;
 }
 
 .two-up-text-card {
@@ -524,7 +524,7 @@ p.season-description-2 {
 }
 
 .triplet-card {
-  max-width: calc(33% - 6px);
+  max-width: calc(33% - 5px);
 }
 
 .triplet-description {
@@ -714,5 +714,13 @@ div.navbar-first{
     flex-direction: column;
   }
 
+  .triplet-flexbox {
+    flex-direction: column;
+  }
+
+  .triplet-card {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
 
 }
