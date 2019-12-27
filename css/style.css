@@ -312,11 +312,11 @@ div.navbar-second-right-box {
 
 }
 
-.hero-big {
+.image-big {
   width: 100%;
 }
 
-.hero-small{
+.image-small {
   display: none;
 }
 
@@ -389,14 +389,6 @@ h3 {
   padding-bottom: 24px;
 }
 
-.featured-big {
-  width: 100%;
-}
-
-.featured-small{
-  display: none;
-}
-
 .single-text-card {
   position: absolute;
   bottom: 7%;
@@ -449,19 +441,11 @@ p.featured-description {
 .two-up-section-box {
   margin-top: 84px;
 }
-.test2 {
+.two-up-flexbox {
   display: flex;
 }
-.test {
+.position-box {
   position: relative;
-}
-
-.season-big {
-  width: 100%;
-}
-
-.season-small{
-  display: none;
 }
 
 .two-up-left-box {
@@ -613,11 +597,11 @@ div.navbar-first{
     left: 35px;
   }
 
-  .hero-big {
+  .image-big {
     display: none;
   }
 
-  .hero-small{
+  .image-small{
     display: initial;
     width: 100%;
   }
@@ -656,13 +640,8 @@ div.navbar-first{
     padding-right: 50px;
   }
 
-  .featured-big {
-    display: none;
-  }
-
-  .featured-small{
-    display: initial;
-    width: 100%;
+  h2.featured-big {
+    color: transparent;
   }
 
   h2.featured-small {
