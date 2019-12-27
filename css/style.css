@@ -477,6 +477,14 @@ p.season-description-2 {
   margin: 0px;
 }
 
+.test {
+  display: flex;
+}
+
+.space {
+  width: 4px;
+}
+
 .button-shop-black {
   padding: 12px 25px;
   background-color: black;
