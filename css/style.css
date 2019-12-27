@@ -398,7 +398,7 @@ h3 {
   align-items: flex-start;
 }
 
-h2.featured-big {
+h2.single-text-big {
   font-family: Nike;
   font-weight: bold;
   letter-spacing: -0.5px;
@@ -406,7 +406,7 @@ h2.featured-big {
   font-size: 40px;
   line-height: 37px;
 }
-h2.featured-small {
+h2.single-text-small {
   font-family: Nike;
   font-weight: bold;
   letter-spacing: -0.5px;
@@ -415,7 +415,7 @@ h2.featured-small {
   line-height: 0px;
 }
 
-p.featured-description {
+p.single-text-description {
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -477,7 +477,7 @@ p.season-description-2 {
   margin: 0px;
 }
 
-.test {
+.flexbox-btn {
   display: flex;
 }
 
@@ -497,7 +497,11 @@ p.season-description-2 {
   text-decoration: none;
 }
 
+/* FOR TRUE FANS BOX */
+  /* NO STYLE CHANGES */
 
+
+/* BASKETBALL'S BEST BOX */
 
 
 /* LOGIN PAGE STYLING */
@@ -581,12 +585,12 @@ div.navbar-first{
   }
 
 
-  h2.featured-big {
+  h2.single-text-big {
     font-size: 36px;
     line-height: 33px;
   }
 
-  p.featured-description {
+  p.single-text-description {
     font-size: 12px;
     line-height: 14px;
     margin-top: 8px;
@@ -651,17 +655,17 @@ div.navbar-first{
     padding-right: 50px;
   }
 
-  h2.featured-big {
+  h2.single-text-big {
     color: transparent;
   }
 
-  h2.featured-small {
+  h2.single-text-small {
     color: white;
     font-size: 60px;
     line-height: 54px;
   }
 
-  p.featured-description {
+  p.single-text-description {
     font-size: 18px;
     font-weight: 400;
     line-height: 16px;
