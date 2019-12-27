@@ -473,15 +473,18 @@ p.season-description {
   color: white;
   margin-top: 12px;
 }
+p.season-description-2 {
+  margin: 0px;
+}
 
-.button-shop {
+.button-shop-black {
   padding: 12px 25px;
-  background-color: white;
+  background-color: black;
   border-radius: 30px;
   margin-top: 30px;
 }
-.shop {
-  color: black;
+.shop-black {
+  color: white;
   font-size: 16px;
   text-decoration: none;
 }
@@ -664,5 +667,10 @@ div.navbar-first{
   .two-up-text-card .button-shop {
     margin-top: 30px;
   }
+
+  .two-up-flexbox {
+    flex-direction: column;
+  }
+
 
 }
