@@ -309,7 +309,6 @@ div.navbar-second-right-box {
 
 .hero-image-box {
   position: relative;
-
 }
 
 .image-big {
@@ -364,6 +363,8 @@ p.lebron-description {
   background-color: white;
   border-radius: 30px;
   margin-top: 50px;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
 }
 .button-shop:hover {
   background-color: rgba(255, 255, 255, 0.75);
@@ -428,6 +429,8 @@ p.single-text-description {
   background-color: white;
   border-radius: 30px;
   margin-top: 30px;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
 }
 .shop {
   color: black;
@@ -490,10 +493,12 @@ p.season-description-2 {
   background-color: black;
   border-radius: 30px;
   margin-top: 30px;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
 }
 
 .button-shop-black:hover {
-  background-color: rgba(0,0,0,0.70)
+  background-color: rgba(0,0,0,0.75)
 }
 
 .shop-black {
