@@ -329,7 +329,7 @@ div.navbar-second-right-box {
   align-items: flex-start;
 }
 
-a.decoration {
+a.product-page-link {
   text-decoration: none;
 }
 
@@ -517,6 +517,20 @@ p.season-description-2 {
 
 
 /* BIG WINS */
+
+.triplet-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.triplet-card {
+  max-width: calc(33% - 6px);
+}
+
+.triplet-description {
+  color: black;
+  margin-top: 5px;
+}
 
 
 
