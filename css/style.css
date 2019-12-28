@@ -534,6 +534,30 @@ p.season-description-2 {
 }
 
 
+/* COMPLETE TWO PART FOOTER */
+
+.complete-footer-position-box {
+  position: relative;
+}
+
+/* WHITE SECTION */
+
+.white-grid-container {
+  margin: 50px 28px 0px 28px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+a.item-link {
+  text-decoration: none;
+  color: grey;
+}
+
+/* BLACK SECTION */
+
+.BLACK-FOOTER-SECTION {
+  position: absolute;
+}
 
 /* LOGIN PAGE STYLING */
 
@@ -709,6 +733,13 @@ div.navbar-first{
   }
   .two-up-text-card .button-shop {
     margin-top: 30px;
+  }
+  .two-up-left-box {
+    margin-right: 0px;
+  }
+  .two-up-right-box {
+    margin-left: 0px;
+    margin-top: 12px;
   }
 
   .two-up-flexbox {
