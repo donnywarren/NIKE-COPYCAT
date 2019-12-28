@@ -543,14 +543,19 @@ p.season-description-2 {
 /* WHITE SECTION */
 
 .white-grid-container {
-  margin: 50px 28px 0px 28px;
+  margin: 84px 28px 0px 28px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
+.item-header {
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
 a.item-link {
   text-decoration: none;
-  color: grey;
+  color: #8d8d8d;
 }
 
 /* BLACK SECTION */
