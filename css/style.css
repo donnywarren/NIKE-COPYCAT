@@ -49,13 +49,13 @@ p {
 }
 
 .black-ad-banner {
-    -moz-animation: cssAnimation 0s ease-in 10s forwards;
+    -moz-animation: cssAnimation 0s ease-in 7s forwards;
     /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 10s forwards;
+    -webkit-animation: cssAnimation 0s ease-in 7s forwards;
     /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 10s forwards;
+    -o-animation: cssAnimation 0s ease-in 7s forwards;
     /* Opera */
-    animation: cssAnimation 0s ease-in 10s forwards;
+    animation: cssAnimation 0s ease-in 7s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation-duration: 1s;
@@ -320,7 +320,6 @@ div.navbar-second-right-box {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
 
 .image-small {
@@ -384,6 +383,8 @@ p.lebron-description {
   text-decoration: none;
 
 }
+
+
 
 /* FEATURED BOX */
 
@@ -452,6 +453,8 @@ p.single-text-description {
 }
 
 
+
+
 /* THIS SEASON BOX */
 
 .two-up-section-box {
@@ -468,6 +471,12 @@ p.single-text-description {
   width: 100%;
   margin-right: 14px;
 }
+
+.two-up-image-box {
+  height: 700px;
+  width: 100%;
+}
+
 .two-up-right-box {
   width: 100%;
   margin-left: 14px;
