@@ -301,7 +301,7 @@ div.navbar-second-right-box {
 /* MAIN BODY OF PAGE - VERTICAL CAROUSEL */
 
 .main {
-  margin: 0 28px;
+  margin: 0 56px;
 }
 
 
@@ -311,8 +311,17 @@ div.navbar-second-right-box {
   position: relative;
 }
 
-.image-big {
+
+.hero-image-box {
+  Height: 900px;
   width: 100%;
+
+}
+.image-big {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .image-small {
@@ -388,6 +397,11 @@ h3 {
   font-size: 24px;
   font-weight: 500;
   padding-bottom: 24px;
+}
+
+.image-box {
+  Height: 700px;
+  width: 100%;
 }
 
 .single-text-card {
@@ -508,7 +522,7 @@ p.season-description-2 {
 }
 
 /* FOR TRUE FANS BOX */
-  /* NO STYLE CHANGES */
+  /* FONT-SIZE STYLED INLINE */
 
 
 /* BASKETBALL'S BEST BOX */
@@ -525,6 +539,7 @@ p.season-description-2 {
 
 .triplet-card {
   max-width: calc(33% - 5px);
+  max-height: 500px;
 }
 
 .triplet-description {
@@ -572,7 +587,11 @@ a.item-link:hover {
 
 .BLACK-FOOTER-SECTION {
   position: absolute;
+  width: 100%;
+  background-color: #111;
 }
+
+
 
 /* LOGIN PAGE STYLING */
 
