@@ -656,11 +656,11 @@ a.item-link:hover {
   letter-spacing: .5px;
 }
 
-.guides, .terms, .privacy {
-  padding: 12px 7px 12px 7px;
+.guides-box, .terms-box, .privacy-box {
+  padding: 18px 14px 18px 14px;
 }
 
-div.guides:hover {
+div.guides-box:hover {
   border-top: 1px solid #fff;
 }
 
@@ -673,13 +673,6 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
   color: #fff;
 }
 
-
-
-
-
-/* .black-lower-icon-left .copywrite {
-  float: left;
-} */
 
 
 
