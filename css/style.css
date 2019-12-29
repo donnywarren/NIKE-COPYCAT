@@ -598,15 +598,34 @@ a.item-link:hover {
   color: #111;
 }
 
+a.hidden {
+  color: transparent;
+}
+
+.white-grid-container:hover .hidden {
+  color: #7e7e7e;
+}
+
+.white-grid-container:hover + .black-footer-section {
+  top: 120%;
+}
+
+a.hidden:hover {
+  color: #111 !important;
+}
 
 
 
 
 /* BLACK SECTION */
 
-.BLACK-FOOTER-SECTION {
+
+.black-footer-section {
   position: absolute;
+  top: 50%;
+  left: 0px;
   width: 100%;
+
 }
 
 .black-upper-container {
