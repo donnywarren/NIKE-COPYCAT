@@ -173,6 +173,8 @@ i.fa-chevron-right {
 
 
 
+
+
 /* SECOND NAV BAR */
 
 .navbar-second {
@@ -256,6 +258,10 @@ div.navbar-second-right-box {
 }
 
 
+
+
+
+
 /* THIRD NAV BAR */
 
 .navbar-third{
@@ -263,6 +269,8 @@ div.navbar-second-right-box {
   height: 0px;
   display: none;
 }
+
+
 
 
 
@@ -302,6 +310,12 @@ div.navbar-second-right-box {
 .shipping {
   color: #111;
 }
+
+
+
+
+
+
 
 /* MAIN BODY OF PAGE - VERTICAL CAROUSEL */
 
@@ -391,6 +405,9 @@ p.lebron-description {
 
 
 
+
+
+
 /* FEATURED BOX */
 
 .section-box {
@@ -456,6 +473,8 @@ p.single-text-description {
   font-size: 16px;
   text-decoration: none;
 }
+
+
 
 
 
@@ -534,13 +553,22 @@ p.season-description-2 {
   text-decoration: none;
 }
 
+
+
+
 /* FOR TRUE FANS BOX */
   /* NO STYLE CHANGES */
 
 
+
+
+
 /* BASKETBALL'S BEST BOX */
   /* NO STYLE CHANGES */
-  /* CHANGE HTML FROM BLACK BUTTONS TO ONE WHITE BUTTON */
+  /* HTML CHANGE - FROM TWO BLACK BUTTONS TO ONE WHITE BUTTON */
+
+
+
 
 
 /* BIG WINS */
@@ -562,11 +590,18 @@ p.season-description-2 {
 }
 
 
+
+
+
 /* COMPLETE TWO PART FOOTER */
 
 .complete-footer-position-box {
   position: relative;
 }
+
+
+
+
 
 /* WHITE SECTION */
 
@@ -618,8 +653,9 @@ a.hidden:hover {
 
 
 
-/* BLACK SECTION */
 
+
+/* BLACK SECTION */
 
 .black-footer-section {
   position: absolute;
@@ -635,6 +671,20 @@ a.hidden:hover {
   height: 272px;
   width: 100%;
   background-color: #111;
+}
+
+.black-upper-right-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.twitter, .facebook, .youtube, .instagram {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+.twitter:hover, .facebook:hover, .youtube:hover, .instagram:hover {
+  color: #fff;
 }
 
 
@@ -708,6 +758,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
 
 
+
 /* TABLET SCREEN SIZE 1008px */
 
 @media only screen and (max-width: 1008px) {
@@ -751,11 +802,11 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     height: 0px;
   }
 
-div.navbar-first{
-  pointer-events: none;
-  cursor: default;
-  display: none;
-}
+  div.navbar-first{
+    pointer-events: none;
+    cursor: default;
+    display: none;
+  }
 
   div.navbar-second {
     pointer-events: none;
@@ -796,6 +847,10 @@ div.navbar-first{
   }
 
 }
+
+
+
+
 
 /* MOBILE SCREEN SIZE 640PX */
 
