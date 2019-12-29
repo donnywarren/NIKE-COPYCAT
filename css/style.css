@@ -571,18 +571,19 @@ p.season-description-2 {
   padding: 0 20px;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
 }
 
 .item-header {
   font-weight: 500;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   line-height: 1.75;
 }
 
 a.item-link {
   text-decoration: none;
   color: #8d8d8d;
-  line-height: 1.75;
+  line-height: 2.24;
   -webkit-transition: color .7s;
   transition: color .7s;
 }
@@ -595,6 +596,18 @@ a.item-link:hover {
 
 .BLACK-FOOTER-SECTION {
   position: absolute;
+  width: 100%;
+}
+
+.black-upper-grid-container {
+  height: 272px;
+  width: 100%;
+  background-color: #111;
+}
+
+
+.black-lower-grid-container {
+  height: 60px;
   width: 100%;
   background-color: #111;
 }
