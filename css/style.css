@@ -38,7 +38,6 @@ p {
 
 
 
-
 /* BLACK AD BANNER */
 
 .black-ad-banner {
@@ -586,6 +585,7 @@ p.season-description-2 {
   line-height: 1.75;
 }
 
+
 a.item-link {
   text-decoration: none;
   color: #8d8d8d;
@@ -594,12 +594,13 @@ a.item-link {
   transition: color .7s;
 }
 
-a.item-link:hover {
-  color: #111;
-}
-
 a.hidden {
   color: transparent;
+}
+
+
+a.item-link:hover {
+  color: #111;
 }
 
 .white-grid-container:hover .hidden {
@@ -607,7 +608,7 @@ a.hidden {
 }
 
 .white-grid-container:hover + .black-footer-section {
-  top: 120%;
+  top: 117%;
 }
 
 a.hidden:hover {
@@ -622,9 +623,11 @@ a.hidden:hover {
 
 .black-footer-section {
   position: absolute;
-  top: 50%;
+  top: 68%;
   left: 0px;
   width: 100%;
+  -webkit-transition: top .7s;
+  transition: top .7s;
 
 }
 
