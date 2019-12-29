@@ -36,6 +36,9 @@ p {
 } */
 
 
+
+
+
 /* BLACK AD BANNER */
 
 .black-ad-banner {
@@ -91,6 +94,9 @@ i.fa-chevron-right {
   font-size: 16px;
   padding-right: 150px;
 }
+
+
+
 
 
 /* FIRST NAV BAR */
@@ -592,6 +598,10 @@ a.item-link:hover {
   color: #111;
 }
 
+
+
+
+
 /* BLACK SECTION */
 
 .BLACK-FOOTER-SECTION {
@@ -599,18 +609,40 @@ a.item-link:hover {
   width: 100%;
 }
 
-.black-upper-grid-container {
+.black-upper-container {
   height: 272px;
   width: 100%;
   background-color: #111;
 }
 
 
-.black-lower-grid-container {
+.black-lower-container {
   height: 60px;
   width: 100%;
   background-color: #111;
 }
+
+
+.black-icon-country {
+  display: block;
+  font-size: 12px;
+  color: #757575;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.black-icon-country:hover {
+
+}
+
+.black-lower-icon-left {
+  float: left;
+}
+
+
+.country {
+  padding-top: 11px;
+}
+
 
 
 
