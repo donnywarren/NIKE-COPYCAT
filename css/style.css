@@ -622,26 +622,61 @@ a.item-link:hover {
   background-color: #111;
 }
 
+.black-lower-left-box {
+  margin-left: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: first baseline;
+}
 
 .black-icon-country {
   display: block;
-  font-size: 12px;
-  color: #757575;
-  padding: 14px 16px;
+  font-size: 10px;
+  font-weight: 300;
+  color: #fff;
+  margin-right: 25px;
   text-decoration: none;
 }
-.black-icon-country:hover {
 
+.copywrite {
+  color: #7e7e7e;
+  font-size: 10px;
 }
 
-.black-lower-icon-left {
+.black-lower-right-box {
+  margin-right: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+
+.guides, .terms, .privacy {
+  padding: 12px 6px 12px 6px;
+}
+
+div.guides:hover {
+  border-top: 1px solid #fff;
+}
+
+a.guides, a.terms, a.privacy {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+a.guides:hover, a.terms:hover, a.privacy:hover {
+  color: #fff;
+}
+
+
+
+
+
+/* .black-lower-icon-left .copywrite {
   float: left;
-}
-
-
-.country {
-  padding-top: 11px;
-}
+} */
 
 
 
