@@ -1035,7 +1035,8 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .complete-mobile-footer-position-box {
     position: relative;
-    margin-top: 54px;
+    margin: 54px 20px 0 48px;
+
   }
 
   .mobile-white-section {
