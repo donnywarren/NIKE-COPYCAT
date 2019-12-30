@@ -916,14 +916,17 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .hero-image-box {
     height: 500px;
+    width: 100%;
   }
 
   .image-box {
     height: 500px;
+    width: 100%;
   }
 
   .two-up-image-box {
     height: 500px;
+    width: 100%;
   }
 
   .hero-text-card {
@@ -936,8 +939,11 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     display: none;
   }
 
-  .image-small{
-    display: initial;
+  .image-small {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 
 
@@ -996,6 +1002,10 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     margin-top: 30px;
   }
 
+  .two-up-flexbox {
+    display: block;
+  }
+
   .two-up-text-card .button-shop {
     margin-top: 30px;
   }
@@ -1009,17 +1019,14 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     margin-top: 12px;
   }
 
-  .two-up-flexbox {
-    flex-direction: column;
-  }
-
   .triplet-flexbox {
     flex-direction: column;
   }
 
   .triplet-card {
+    height: 500px;
     max-width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 54px;
   }
 
 }
