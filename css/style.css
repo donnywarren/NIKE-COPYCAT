@@ -1029,3 +1029,22 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     }
 
   }
+
+
+  /* MOBILE SCREEN COMPLETE TWO PART FOOTER */
+
+  .complete-mobile-footer-position-box {
+    position: relative;
+    margin-top: 54px;
+  }
+
+  .mobile-white-section {
+    width: 100%
+    height: 100%
+  }
+
+  .button {
+    font-weight: 400;
+    margin-bottom: 18px;
+    line-height: 1.75;
+  }
