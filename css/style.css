@@ -613,6 +613,7 @@ p.season-description-2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 .item-header {
@@ -669,7 +670,7 @@ a.hidden:hover {
 }
 
 .black-upper-container {
-  height: 272px;
+  min-height: 272px;
   width: 100%;
   background-color: #111;
   display: flex;
@@ -679,7 +680,7 @@ a.hidden:hover {
 .black-upper-left-box {
   display: flex;
   justify-content:space-between;
-  width: 50%;
+  width: 46%;
   margin-left: 40px;
 }
 
@@ -687,6 +688,7 @@ a.hidden:hover {
   padding-top: 40px;
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
 }
 
 a.bold {
@@ -703,8 +705,15 @@ a.normal {
   color: #7e7e7e;
   text-decoration: none;
   font-size:12px;
+  font-weight: 300;
   line-Height: 24px;
   margin-bottom: 3px;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+a.normal:hover {
+  color: #fff;
 }
 
 .black-upper-right-box {
