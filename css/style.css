@@ -1028,6 +1028,10 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
       margin-bottom: 54px;
     }
 
+    .complete-footer-position-box {
+      display: none;
+    }
+
   }
 
 
@@ -1035,11 +1039,12 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .complete-mobile-footer-position-box {
     position: relative;
-    margin: 54px 20px 0 48px;
+
 
   }
 
   .mobile-white-section {
+    margin: 54px 20px 0 48px;
     width: 100%
     height: 100%
   }
@@ -1048,4 +1053,42 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     font-weight: 400;
     margin-bottom: 18px;
     line-height: 1.75;
+    cursor: pointer;
+  }
+
+  .mobile-black-section {
+    background-color: #111;
+    width: 100%
+  }
+
+  .mobile-black-first-links {
+    height: 234px;
+    border-bottom: 1px solid #323232
+  }
+
+  .mobile-black-icons, .mobile-black-shoes, .mobile-black-clothing, .mobile-black-kids {
+    /* color: #fff; */
+  }
+
+  .mobile-black-accordian-help {
+    height: 73px;
+  }
+
+  .mobile-balck-accordian-about {
+    height: 73px;
+  }
+
+  .mobile-black-socialmedia {
+    height: 37px;
+    margin-top: 16px;
+  }
+
+  .mobile-black-country-copywrite {
+    height: 71px;
+    padding-top: 12px;
+  }
+
+  .mobile-black-guides-terms-privacy {
+    height: 122px;
+    padding-bottom: 12px;
   }
