@@ -1137,7 +1137,13 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .mobile-black-socialmedia {
     height: 37px;
-    margin-top: 16px;
+    margin-left: 8px;
+    margin-top: 42px;
+  }
+
+  .black-logo-box {
+    display: inline-block;
+    margin-left: 16px;
   }
 
   .mobile-black-country-copywrite {
