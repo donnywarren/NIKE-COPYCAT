@@ -694,7 +694,8 @@ a.hidden:hover {
   white-space: nowrap;
 }
 
-.bold {
+
+a.bold {
   color: #fff;
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
@@ -801,6 +802,11 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 }
 
 
+.complete-mobile-footer-position-box {
+  display: none;
+}
+
+
 
 
 
@@ -903,6 +909,11 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .single-text-card .button-shop {
     margin-top: 20px;
+  }
+
+/* BLACK FOOTER COLUMNS */
+  .two, .three {
+    padding-left: 20px;
   }
 
 }
@@ -1038,12 +1049,13 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     display: none;
   }
 
-}
+
 
 
   /* MOBILE SCREEN COMPLETE TWO PART FOOTER */
 
   .complete-mobile-footer-position-box {
+    display: block;
     position: relative;
 
 
@@ -1093,10 +1105,22 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .accordian-help {
     display: inline-block;
+    cursor: pointer;
   }
 
   .accordian-about {
     display: inline-block;
+    cursor: pointer;
+  }
+
+  .black-bold {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: .5px;
+    margin-bottom: 3px;
   }
 
   .plus-minus {
@@ -1108,6 +1132,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     letter-spacing: .5px;
     margin-bottom: 3px;
     float: right;
+    cursor: pointer;
   }
 
   .mobile-black-socialmedia {
@@ -1124,3 +1149,5 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     height: 122px;
     padding-bottom: 12px;
   }
+
+}
