@@ -1095,7 +1095,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
     height: 56px;
   }
 
-  .mobile-balck-accordian-about {
+  .mobile-black-accordian-about {
     height: 56px;
   }
 
@@ -1138,7 +1138,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
   .mobile-black-socialmedia {
     height: 37px;
     margin-left: 8px;
-    margin-top: 42px;
+    margin-top: 16px;
   }
 
   .black-logo-box {
@@ -1148,12 +1148,54 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
   .mobile-black-country-copywrite {
     height: 71px;
-    padding-top: 12px;
+    padding-top: 34px;
+    margin-left: 25px;
+  }
+
+  .mobile-black-country-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .mobile-black-copywrite {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-weight:300;
+    letter-spacing: .25px;
+    padding-top: 18px;
   }
 
   .mobile-black-guides-terms-privacy {
-    height: 122px;
-    padding-bottom: 12px;
+    padding-top:30px;
+    margin-left: 25px;
+    margin-right: 12px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: .5px;
   }
+
+  .mobile-black-guides-box, .mobile-black-terms-box, .mobile-black-privacy-box {
+    padding-bottom: 26px;
+  }
+
+  .mobile-black-guides, a.mobile-black-terms, a.mobile-black-privacy {
+    color: #7e7e7e;
+    text-decoration: none;
+  }
+
+  .mobile-black-guides:hover, a.mobile-black-terms:hover, a.mobile-black-privacy:hover {
+    color: #fff;
+  }
+
+  .mobile-black-guides-box{
+    padding-top: 18px;
+  }
+
+  .mobile-black-guides-box:hover {
+    border-top: 1px solid #fff;
+  }
+
 
 }
