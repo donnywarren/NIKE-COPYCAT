@@ -30,11 +30,12 @@ h2 {
   font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   font-weight: bold;
 }
-/*
-p {
-  font-size: 50px;
-} */
 
+
+.static-position-navbar {
+  position: static;
+  top: 0px;
+}
 
 
 
@@ -801,8 +802,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
   color: #fff;
 }
 
-
-.complete-mobile-footer-position-box {
+.grey-membership-section {
   display: none;
 }
 
@@ -910,7 +910,7 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
   .single-text-card .button-shop {
     margin-top: 20px;
   }
-  
+
 
 /* BLACK FOOTER COLUMNS */
   .two, .three {
@@ -927,6 +927,10 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
 @media only screen and (max-width: 640px) {
 
+
+  .main {
+    margin: 0 20px;
+  }
 
   .hero-image-box {
       height: 500px;
@@ -1053,12 +1057,63 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
 
 
 
+
+
+  /* MOBILE SCREEN UNIQUE CONTENT */
+
+
+.grey-membership-section {
+  display: inherit;
+  margin: 0 20px;
+}
+
+.grey-membership-box {
+  position: relative;
+}
+
+.grey-membership-box {
+  height: 500px;
+  display: block;
+}
+
+.grey-membership-text-card {
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+h2.grey-membership {
+  font-family: Nike;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #111;
+  font-size: 48px;
+  line-height: .833333;
+  margin-bottom: 8px;
+}
+
+.grey-membership-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.grey-membership-image {
+  height: 500px;
+  width: 100%;
+}
+
+.image-fit {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
   /* MOBILE SCREEN COMPLETE TWO PART FOOTER */
 
   .complete-mobile-footer-position-box {
-    display: block;
     position: relative;
-
 
   }
 
