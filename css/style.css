@@ -33,8 +33,12 @@ h2 {
 
 
 .static-position-navbar {
-  position: static;
-  top: 0px;
+background-color: #fff;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 1;
+
 }
 
 
@@ -806,7 +810,9 @@ a.guides:hover, a.terms:hover, a.privacy:hover {
   display: none;
 }
 
-
+.complete-mobile-footer-position-box {
+  display: none;
+}
 
 
 
@@ -1113,6 +1119,7 @@ h2.grey-membership {
   /* MOBILE SCREEN COMPLETE TWO PART FOOTER */
 
   .complete-mobile-footer-position-box {
+    display: inherit;
     position: relative;
 
   }
