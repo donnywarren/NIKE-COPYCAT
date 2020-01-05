@@ -168,6 +168,23 @@ i.fa-chevron-right {
   padding-top: 11px;
 }
 
+.help-drop-down-wrapper {
+  position: relative;
+}
+
+.help-drop-down-container {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  background-color: transparent;
+  transform: translateX(-50%);
+  z-index: 101;
+}
+
+
+
+
+
 .help:hover {
   border-bottom: 1px solid black;
 }
