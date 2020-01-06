@@ -949,15 +949,9 @@ div.guides-box {
   position: relative;
 }
 
-
-
 div.guides-box:hover {
   border-top: 1px solid #fff;
 }
-
-
-
-
 
 a.guides, a.terms, a.privacy {
   color: #7e7e7e;
@@ -970,6 +964,24 @@ a.terms:hover, a.privacy:hover {
 
 a.guides:hover {
   color: #fff;
+}
+
+.pop-up-guides-container {
+  position: absolute;
+  bottom: 32px;
+  padding-bottom: 10px;
+  z-index: 3;
+  min-width: 320px;
+}
+
+
+
+.pop-up-guides-position-box {
+  background-color: #111;
+  border: 1px solid #6d6d6d;
+  text-align: left;
+  display: block;
+  transition: display .2s;
 }
 
 
