@@ -325,6 +325,10 @@ div.navbar-second-right-box {
   display: none;
 }
 
+.second-navbar-drop-down-container-customize {
+  display: none;
+}
+
 .second-navbar-drop-down-flex {
   display: flex;
   width: 100%;
@@ -940,18 +944,38 @@ a.normal:hover {
   padding: 18px 14px 18px 14px;
 }
 
+
+div.guides-box {
+  position: relative;
+}
+
+
+
 div.guides-box:hover {
   border-top: 1px solid #fff;
 }
+
+
+
+
 
 a.guides, a.terms, a.privacy {
   color: #7e7e7e;
   text-decoration: none;
 }
 
-a.guides:hover, a.terms:hover, a.privacy:hover {
+a.terms:hover, a.privacy:hover {
   color: #fff;
 }
+
+a.guides:hover {
+  color: #fff;
+}
+
+
+
+
+
 
 .grey-membership-section {
   display: none;
