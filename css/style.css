@@ -313,6 +313,10 @@ div.navbar-second-right-box {
   display: none;
 }
 
+.second-navbar-drop-down-container-new-men {
+  display: none;
+}
+
 .second-navbar-drop-down-flex {
   display: flex;
   width: 100%;
