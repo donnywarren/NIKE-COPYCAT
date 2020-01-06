@@ -829,7 +829,7 @@ a.hidden:hover {
 }
 
 .black-upper-container {
-  min-height: 272px;
+  min-height: 290px;
   width: 100%;
   background-color: #111;
   display: flex;
@@ -899,7 +899,7 @@ a.normal:hover {
 
 
 .black-lower-container {
-  height: 60px;
+  height: auto;
   width: 100%;
   background-color: #111;
   display: flex;
@@ -968,23 +968,48 @@ a.guides:hover {
 
 .pop-up-guides-container {
   position: absolute;
-  bottom: 32px;
+  bottom: 37px;
+  left: calc(50% - 30px);
   padding-bottom: 10px;
-  z-index: 3;
-  min-width: 320px;
+  /* z-index: 3; */
+  max-width: 50vw;
 }
 
 
 
-.pop-up-guides-position-box {
+.pop-up-guides-flex-box {
+  position: relative;
+  left: -50%;
+  display: flex;
+  justify-content: space-between;
   background-color: #111;
-  border: 1px solid #6d6d6d;
+  border: 1px solid #fff;
   text-align: left;
-  display: block;
   transition: display .2s;
 }
 
 
+
+.pop-up-guides-list-columns {
+  display: block;
+  padding: 20px 28px;
+  width: auto;
+}
+
+
+.pop-up-guides-item-link {
+  font-size: 12px;
+  padding-left: 20px;
+  color: #7e7e7e;
+  line-height: 2;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.pop-up-guides-item-link:hover {
+  color: #fff;
+}
 
 
 
@@ -1107,6 +1132,9 @@ a.guides:hover {
     padding-left: 20px;
   }
 
+  .pop-up-guides-container {
+    left: calc(30% - 20px);
+  }
 }
 
 
