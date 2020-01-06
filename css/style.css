@@ -309,8 +309,8 @@ div.navbar-second-right-box {
 /* DROP DOWN SCREENS FOR SECOND NAV BAR */
 
 
-.second-navbar-drop-down-container {
-  /* display: none; */
+.second-navbar-drop-down-container-new-releases {
+  display: none;
 }
 
 .second-navbar-drop-down-flex {
@@ -324,6 +324,9 @@ div.navbar-second-right-box {
 .second-navbar-drop-down-column {
   padding-left: 32px;
   margin-right: 16px;
+  padding-top: 3px;
+  margin-top: 46px;
+  margin-bottom: 46px;
   width: 200px;
 }
 
@@ -334,7 +337,7 @@ div.navbar-second-right-box {
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 36px;
   letter-spacing: 1px;
   /* margin-top: 20px;
   margin-bottom: 16px; */
@@ -353,8 +356,8 @@ div.navbar-second-right-box {
   color: #111;
   text-decoration: none;
   font-size:12px;
-  font-weight: 300;
-  line-Height: 24px;
+  font-weight: 400;
+  line-Height: 22px;
   margin-bottom: 3px;
   -webkit-transition: color .3s;
   transition: color .3s;
