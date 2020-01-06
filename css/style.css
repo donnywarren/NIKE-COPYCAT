@@ -306,6 +306,72 @@ div.navbar-second-right-box {
 
 
 
+/* DROP DOWN SCREENS FOR SECOND NAV BAR */
+
+
+.second-navbar-drop-down-container {
+  /* display: none; */
+}
+
+.second-navbar-drop-down-flex {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.second-navbar-drop-down-column {
+  padding-left: 32px;
+  margin-right: 16px;
+  width: 200px;
+}
+
+.second-navbar-drop-down-bold-item {
+  display: block;
+  color: #111;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  /* margin-top: 20px;
+  margin-bottom: 16px; */
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.second-navbar-drop-down-bold-item:hover {
+  color: #757575;
+}
+
+.second-navbar-drop-down-normal-item {
+  display: block;
+  color: #111;
+  text-decoration: none;
+  font-size:12px;
+  font-weight: 300;
+  line-Height: 24px;
+  margin-bottom: 3px;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+.second-navbar-drop-down-normal-item:hover {
+  color: #757575;
+}
+
+.two, .four {
+  border-left: 1px solid #e5e5e5;
+}
+
+
+
+
+
 
 /* THIRD NAV BAR */
 
