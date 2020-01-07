@@ -309,7 +309,7 @@ div.navbar-second-right-box {
 /* DROP DOWN SCREENS FOR SECOND NAV BAR */
 
 
-.second-navbar-drop-down-container-new-releases {
+#second-navbar-drop-down-container-new-releases {
   display: none;
 }
 
