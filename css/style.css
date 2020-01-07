@@ -949,6 +949,10 @@ div.guides-box {
   position: relative;
 }
 
+div.guides-box:hover > .pop-up-guides-container {
+  display: inherit;
+}
+
 div.guides-box:hover {
   border-top: 1px solid #fff;
 }
@@ -967,51 +971,46 @@ a.guides:hover {
 }
 
 .pop-up-guides-container {
+  display: none;
   position: absolute;
-  bottom: 37px;
-  left: calc(50% - 30px);
-  padding-bottom: 10px;
-  /* z-index: 3; */
+  bottom: 38px;
+  left: -333%;
+  padding-bottom: 9px;
   max-width: 50vw;
+  min-width: 320px;
+
 }
-
-
 
 .pop-up-guides-flex-box {
   position: relative;
-  left: -50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
   background-color: #111;
   border: 1px solid #fff;
   text-align: left;
   transition: display .2s;
 }
 
-
-
 .pop-up-guides-list-columns {
-  display: block;
+  display: inline-block;
   padding: 20px 28px;
-  width: auto;
+  width: 33.33333%;
 }
 
-
-.pop-up-guides-item-link {
+a.pop-up-guides-item-link {
   font-size: 12px;
-  padding-left: 20px;
   color: #7e7e7e;
   line-height: 2;
   cursor: pointer;
   text-decoration: none;
+  word-wrap: break-word;
 }
 
 
 .pop-up-guides-item-link:hover {
   color: #fff;
 }
-
-
 
 
 .grey-membership-section {
@@ -1131,12 +1130,6 @@ a.guides:hover {
   .two, .three {
     padding-left: 20px;
   }
-
-  .pop-up-guides-container {
-    left: calc(30% - 20px);
-  }
-}
-
 
 
 
