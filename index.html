@@ -136,7 +136,7 @@
         </div>
         <div class="women" onmouseover="womenDropDown()" onmouseout="womenHide()"><a href="https://www.nike.com/women" class="categorybtn">WOMEN</a>
         </div>
-        <div class="kids" onmouseover="kidsDropDown()" onmouseoiut="kidsHide()"><a href="https://www.nike.com/kids" class="categorybtn">KIDS</a>
+        <div class="kids" onmouseover="kidsDropDown()" onmouseout="kidsHide()"><a href="https://www.nike.com/kids" class="categorybtn">KIDS</a>
         </div>
         <div class="customize" onmouseover="customizeDropDown()" onmouseout="customizeHide()"><a href="https://www.nike.com/nike-by-you" class="categorybtn">CUSTOMIZE</a>
         </div>
@@ -364,7 +364,7 @@
     </div>
 
 
-    <div id="second-navbar-drop-down-container-new-kids" onmouseover="kidsDropDown()" onmouseout="disHide()">
+    <div id="second-navbar-drop-down-container-new-kids" onmouseover="kidsDropDown()" onmouseout="kidsHide()">
 
       <div class="second-navbar-drop-down-flex">
         <div class="second-navbar-drop-down-column one">
@@ -1125,19 +1125,19 @@ function menHide() {
 }
 
 function womenDropDown() {
-  document.getElementById().style.display = "inherit";
+  document.getElementById("second-navbar-drop-down-container-new-women").style.display = "inherit";
 }
 
 function womenHide() {
-  document.getElementById().style.display = "none";
+  document.getElementById("second-navbar-drop-down-container-new-women").style.display = "none";
 }
 
 function kidsDropDown() {
-  document.getElementById().style.display = "inherit";
+  document.getElementById("second-navbar-drop-down-container-new-kids").style.display = "inherit";
 }
 
 function kidsHide() {
-  document.getElementById().style.display = "none";
+  document.getElementById("second-navbar-drop-down-container-new-kids").style.display = "none";
 }
 
 function customizeDropDown() {
