@@ -228,7 +228,7 @@
     </div>
 
 
-    <div id="second-navbar-drop-down-container-new-men">
+    <div id="second-navbar-drop-down-container-new-men" onmouseover="menDropDown()" onmouseout="menHide">
 
       <div class="second-navbar-drop-down-flex">
         <div class="second-navbar-drop-down-column one">
@@ -298,7 +298,7 @@
     </div>
 
 
-    <div id="second-navbar-drop-down-container-new-women">
+    <div id="second-navbar-drop-down-container-new-women" onmouseover="womenDropDown()" onmouseout="womenHide()">
 
       <div class="second-navbar-drop-down-flex">
         <div class="second-navbar-drop-down-column one">
@@ -364,7 +364,7 @@
     </div>
 
 
-    <div id="second-navbar-drop-down-container-new-kids">
+    <div id="second-navbar-drop-down-container-new-kids" onmouseover="kidsDropDown()" onmouseout="disHide()">
 
       <div class="second-navbar-drop-down-flex">
         <div class="second-navbar-drop-down-column one">
@@ -443,7 +443,7 @@
       </div>
     </div>
 
-    <div id="second-navbar-drop-down-container-customize">
+    <div id="second-navbar-drop-down-container-customize" onmouseover="customizeDropDown()" onmouseout="customizeHide()">
 
       <div class="second-navbar-drop-down-flex">
         <div class="second-navbar-drop-down-column one">
@@ -1120,8 +1120,8 @@ function menDropDown() {
   document.getElementById("second-navbar-drop-down-container-new-men").style.display = "inherit";
 }
 
-function menHide("second-navbar-drop-down-container-new-men") {
-  document.getElementById().style.display = "none";
+function menHide() {
+  document.getElementById("second-navbar-drop-down-container-new-men").style.display = "none";
 }
 
 function womenDropDown() {
