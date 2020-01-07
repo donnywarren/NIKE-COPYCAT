@@ -313,19 +313,19 @@ div.navbar-second-right-box {
   display: none;
 }
 
-.second-navbar-drop-down-container-new-men {
+#second-navbar-drop-down-container-new-men {
   display: none;
 }
 
-.second-navbar-drop-down-container-new-women {
+#second-navbar-drop-down-container-new-women {
   display: none;
 }
 
-.second-navbar-drop-down-container-new-kids {
+#second-navbar-drop-down-container-new-kids {
   display: none;
 }
 
-.second-navbar-drop-down-container-customize {
+#second-navbar-drop-down-container-customize {
   display: none;
 }
 
