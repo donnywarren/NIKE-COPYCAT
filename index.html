@@ -949,7 +949,7 @@
           <div class="black-lower-right-box">
 
             <div class="guides-box" onmouseover="guidesPopUp()" onmouseout="guidesHide()">
-              <a href="#" class="guides">Guides</a>
+              <a href="#" id="guides">Guides</a>
             </div>
 
             <div class="terms-box">
@@ -1199,11 +1199,13 @@ function customizeHide() {
 }
 
 function guidesPopUp() {
-  document.getElementById("pop-up-guides-container").style.display="inherit";
+  document.getElementById("pop-up-guides-container").style.display = "inherit";
+  document.getElementById("guides").style.color = "#fff";
 }
 
 function guidesHide() {
   document.getElementById("pop-up-guides-container").style.display = "none";
+  document.getElementById("guides").style.color = "#7e7e7e";
 }
 
 function mguidesPopUp() {

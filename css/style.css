@@ -950,7 +950,11 @@ a.normal:hover {
   border-top: 1px solid #fff;
 }
 
-.guides, .terms, .privacy {
+/* .guides:hover {
+  color: #fff;
+} */
+
+#guides, .terms, .privacy {
   color: #7e7e7e;
   text-decoration: none;
 }
@@ -958,10 +962,6 @@ a.normal:hover {
 .terms:hover, .privacy:hover {
   color: #fff;
 }
-
-/* a.guides:hover {
-  color: #fff;
-} */
 
 #pop-up-guides-container {
   display: none;
