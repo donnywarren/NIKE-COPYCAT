@@ -945,14 +945,9 @@ a.normal:hover {
   position: relative;
 }
 
-
 .guides-box:hover {
   border-top: 1px solid #fff;
 }
-
-/* .guides:hover {
-  color: #fff;
-} */
 
 #guides, .terms, .privacy {
   color: #7e7e7e;
@@ -969,7 +964,6 @@ a.normal:hover {
   bottom: 38px;
   left: calc(95% - 560px);
   padding-bottom: 9px;
-  width: 560px;
 }
 
 .pop-up-guides-flex-box {
@@ -981,6 +975,7 @@ a.normal:hover {
   border: 1px solid #fff;
   text-align: left;
   transition: display .2s;
+  width: 560px;
 }
 
 .pop-up-guides-list-columns {
