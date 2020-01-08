@@ -964,7 +964,7 @@ a.guides:hover {
 }
 
 .pop-up-guides-container {
-  /* display: none; */
+  display: none;
   position: absolute;
   bottom: 38px;
   left: calc(95% - 560px);
@@ -1257,7 +1257,7 @@ a.pop-up-guides-item-link {
 
 
   .m-pop-up-guides-container {
-    /* display: none; */
+    display: none;
     position: absolute;
     bottom: 49px;
     left: 50%;
