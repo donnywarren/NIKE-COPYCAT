@@ -1425,6 +1425,7 @@ h2.grey-membership {
 
   .mobile-black-guides-terms-privacy {
     padding-top:30px;
+    padding-bottom: 18px;
     margin-left: 25px;
     margin-right: 12px;
     font-size: 12px;
@@ -1433,7 +1434,7 @@ h2.grey-membership {
   }
 
   .mobile-black-guides-box, .mobile-black-terms-box, .mobile-black-privacy-box {
-    padding-bottom: 18px;
+    padding-bottom: 10px;
     padding-top: 18px;
   }
 
