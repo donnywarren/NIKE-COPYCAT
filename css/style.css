@@ -894,6 +894,7 @@ a.normal:hover {
 
 
 .black-lower-container {
+  position: relative;
   height: auto;
   width: 100%;
   background-color: #111;
@@ -966,13 +967,12 @@ a.guides:hover {
 }
 
 .pop-up-guides-container {
-  display: none;
+  /* display: none; */
   position: absolute;
   bottom: 38px;
-  left: -333%;
+  left: calc(95% - 560px);
   padding-bottom: 9px;
-  max-width: 50vw;
-  min-width: 320px;
+  width: 560px;
 }
 
 .pop-up-guides-flex-box {
