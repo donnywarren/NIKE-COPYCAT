@@ -1092,12 +1092,16 @@
 
       <div class="mobile-black-guides-terms-privacy">
 
-        <div class="mobile-black-guides-box">
+        <div class="mobile-black-guides-box"   onmouseover="mguidesPopUp()" onmouseout="mguidesHide()">
+
+          
           <a href="#" class="mobile-black-guides">Guides</a>
+
+
 
 <!-- POP UP SCREEN FOR GUIDES -->
 
-      <div class="m-pop-up-guides-container">
+      <div id="m-pop-up-guides-container" onmouseover="mguidesPopUp()" onmouseout="mguidesHide()">
 
         <div class="pop-up-guides-flex-box">
 
@@ -1207,6 +1211,14 @@ function guidesPopUp() {
 
 function guidesHide() {
   document.getElementById("pop-up-guides-container").style.display = "none";
+}
+
+function mguidesPopUp() {
+  document.getElementById("m-pop-up-guides-container").style.display = "inherit";
+}
+
+function mguidesHide() {
+  document.getElementById("m-pop-up-guides-container").style.display = "none";;
 }
 </script>
 

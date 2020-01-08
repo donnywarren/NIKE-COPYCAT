@@ -1256,17 +1256,6 @@ a.pop-up-guides-item-link {
   }
 
 
-  .m-pop-up-guides-container {
-    display: none;
-    position: absolute;
-    bottom: 49px;
-    left: 50%;
-    transform: translate(-50%);
-    padding-bottom: 7px;
-    width: 100%;
-  }
-
-
 
 
 
@@ -1444,10 +1433,16 @@ h2.grey-membership {
   }
 
   .mobile-black-guides-box, .mobile-black-terms-box, .mobile-black-privacy-box {
-    padding-bottom: 26px;
+    padding-bottom: 18px;
+    padding-top: 18px;
   }
 
-  .mobile-black-guides, a.mobile-black-terms, a.mobile-black-privacy {
+  .mobile-black-guides-box:hover > .mobile-black-guides {
+    color: #fff;
+  }
+
+
+  .mobile-black-guides, .mobile-black-terms, .mobile-black-privacy {
     color: #7e7e7e;
     text-decoration: none;
   }
@@ -1458,11 +1453,18 @@ h2.grey-membership {
 
   .mobile-black-guides-box{
     position: relative;
-    padding-top: 18px;
+    padding-bottom: 18px;
   }
 
-  .mobile-black-guides-box:hover {
-    border-top: 1px solid #fff;
+
+  #m-pop-up-guides-container {
+    display: none;
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 9px;
+    width: 100%;
   }
 
 
