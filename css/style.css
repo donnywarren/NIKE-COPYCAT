@@ -941,29 +941,29 @@ a.normal:hover {
 }
 
 
-div.guides-box {
+.guides-box {
   position: relative;
 }
 
 
-div.guides-box:hover {
+.guides-box:hover {
   border-top: 1px solid #fff;
 }
 
-a.guides, a.terms, a.privacy {
+.guides, .terms, .privacy {
   color: #7e7e7e;
   text-decoration: none;
 }
 
-a.terms:hover, a.privacy:hover {
+.terms:hover, .privacy:hover {
   color: #fff;
 }
 
-a.guides:hover {
+/* a.guides:hover {
   color: #fff;
-}
+} */
 
-.pop-up-guides-container {
+#pop-up-guides-container {
   display: none;
   position: absolute;
   bottom: 38px;
@@ -989,7 +989,7 @@ a.guides:hover {
   width: 33.33333%;
 }
 
-a.pop-up-guides-item-link {
+.pop-up-guides-item-link {
   font-size: 12px;
   color: #7e7e7e;
   line-height: 2;
