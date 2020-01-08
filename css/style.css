@@ -945,9 +945,6 @@ div.guides-box {
   position: relative;
 }
 
-div.guides-box:hover > .pop-up-guides-container {
-  display: inherit;
-}
 
 div.guides-box:hover {
   border-top: 1px solid #fff;
@@ -1259,6 +1256,16 @@ a.pop-up-guides-item-link {
   }
 
 
+  .m-pop-up-guides-container {
+    /* display: none; */
+    position: absolute;
+    bottom: 49px;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 7px;
+    width: 100%;
+  }
+
 
 
 
@@ -1450,6 +1457,7 @@ h2.grey-membership {
   }
 
   .mobile-black-guides-box{
+    position: relative;
     padding-top: 18px;
   }
 
