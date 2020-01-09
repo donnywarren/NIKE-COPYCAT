@@ -835,11 +835,12 @@ h3 {
   display: flex;
   justify-content:space-between;
   width: 46%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .black-column {
   padding-top: 40px;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
   white-space: nowrap;
@@ -1460,6 +1461,10 @@ h3 {
     left: 50%;
     transform: translate(-50%);
     padding-bottom: 9px;
+    width: 100%;
+  }
+
+  .pop-up-guides-flex-box {
     width: 100%;
   }
 
