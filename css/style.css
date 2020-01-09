@@ -1109,6 +1109,21 @@ h3 {
 
 @media only screen and (max-width: 640px) {
 
+  .horizontal-carousel-banner {
+    margin-top: 100px;
+  }
+
+
+@keyframes horizontal-carousel-banner {
+    to {
+        margin-top: 46px;
+    }
+}
+@-webkit-keyframes horizontal-carousel-banner {
+    to {
+        margin-top: 46px;
+    }
+}
 
   .main {
     margin: 0 20px;
@@ -1117,7 +1132,7 @@ h3 {
   .hero-image-box {
       height: 500px;
       width: 100%;
-    }
+  }
 
 
   .image-box {
